@@ -1,6 +1,14 @@
 # SpotipyCLI
 
-Spotipy command line program
+Spotipy command line program to use as a toolbar
+
+![alt text](toolbar.png)
+
+In the toolbar directory add a windows lnk file that points to
+
+```bash
+C:\path\to\Python\Python37\pythonw.exe "C:\users\username\SpotipyCLI\main.pyw" prevsong
+```
 
 ## Requirements
 
@@ -27,15 +35,3 @@ PLAYLISTID = "PLAYLISTID"  # ID of playlist to save songs to
 | songsave      | Save User’s Current Song To Playlist   |
 | -h            | Show this screen                       |
 | -v            | Show version and exit                  |
-
-## Toolbar
-
-To easily access from the desktop create a custom toolbar
-
-![alt text](Toolbar.png)
-
-In the toolbar directory add a windows lnk file that points to
-
-```bash
-C:\path\to\Python\Python37\pythonw.exe "C:\users\username\SpotipyCLI\main.pyw" prevsong
-```
