@@ -9,11 +9,11 @@ import os
 # Global Variables
 CLIENT_ID = "CLIENT_ID"  # Spotify client token
 CLIENT_SECRET = "CLIENT_SECRET"  # Spotify secret token
-REDIRECT_URI = "https://example.com/callback/"  # Site to redirect to when logged in
-SCOPE = "user-read-currently-playing user-modify-playback-state playlist-modify-public"  # Permission levels for spotify
 USERNAME = "USERNAME"  # User to login as
 PLAYLISTID = "PLAYLISTID"  # ID of playlist to save songs to
 
+REDIRECT_URI = "https://example.com/callback/"  # Site to redirect to when logged in
+SCOPE = "user-read-currently-playing user-modify-playback-state playlist-modify-public"  # Permission levels for spotify
 
 DURATION = 5  # Set duration of notifications
 VERSION = "1.0.1"  # current version
