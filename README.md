@@ -1,14 +1,16 @@
 # SpotipyCLI
 
-Spotipy command line program to use as a toolbar
+[Spotipy](https://github.com/plamere/spotipy) command line interface to interact with spotify.
 
-![alt text](toolbar.png)
+## Toolbar
 
-In the toolbar directory add a windows lnk file that points to
+To use as a toolbar create a folder and add a windows lnk file that points to
 
 ```bash
 C:\path\to\Python\Python37\pythonw.exe "C:\users\username\SpotipyCLI\main.pyw" prevsong
 ```
+
+![alt text](toolbar.png)
 
 ## Requirements
 
@@ -16,7 +18,7 @@ C:\path\to\Python\Python37\pythonw.exe "C:\users\username\SpotipyCLI\main.pyw" p
 pip install requirements.txt
 ```
 
-update the following lines with your api keys & spotify login
+Update the following lines with your api keys & spotify login
 
 ```python
 CLIENT_ID = "CLIENT_ID"  # Spotify client token
