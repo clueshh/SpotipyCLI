@@ -7,7 +7,7 @@
 To use as a toolbar create a folder and add a windows lnk file that points to
 
 ```bash
-C:\path\to\Python\Python37\pythonw.exe "C:\users\username\SpotipyCLI\main.pyw" prevsong
+C:\path\to\Python\Python37\pythonw.exe "C:\users\username\SpotipyCLI\SpotipyCLI.py" prevsong
 ```
 
 ![alt text](toolbar.png)
@@ -18,13 +18,14 @@ C:\path\to\Python\Python37\pythonw.exe "C:\users\username\SpotipyCLI\main.pyw" p
 pip install requirements.txt
 ```
 
-Update the following lines with your api keys & spotify login
+Create a file `credentials.ini` with the following lines and update with your api keys & spotify login
 
-```python
-CLIENT_ID = "CLIENT_ID"  # Spotify client token
-CLIENT_SECRET = "CLIENT_SECRET"  # Spotify secret token
-USERNAME = "USERNAME"  # User to login as
-PLAYLISTID = "PLAYLISTID"  # ID of playlist to save songs to
+```ini
+[DEFAULT]
+CLIENT_ID = CLIENT_ID  # Spotify client token
+CLIENT_SECRET = CLIENT_SECRET  # Spotify secret token
+USERNAME = USERNAME  # User to login as
+PLAYLISTID = PLAYLISTID  # ID of playlist to save songs to
 ```
 
 ## Arguments
